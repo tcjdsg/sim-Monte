@@ -180,7 +180,6 @@ class bso(object):
 
     def newIndividualGenerate(self):
         self.nSolutions =[]
-
         #    判断是否需要随机挑选出来一个类中心去替换掉
         #    这是一种发散操作
         self.r_clustering = random.random()
