@@ -164,7 +164,6 @@ class bso(object):
     #确定类中心
     #下面的实现是基于挑选类中最优个体作为类中心的
     #如果最终算法收敛效果不好，那么可以尝试一下使用质心作为类中心
-
     def getCenter(self):
         for i in range(self.number_of_clusters):
             bestValue = 99999999999999999
